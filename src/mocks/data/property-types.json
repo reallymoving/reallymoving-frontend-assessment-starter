@@ -1,0 +1,26 @@
+[
+  {
+    "value": "flat",
+    "label": "Flat"
+  },
+  {
+    "value": "terraced-house",
+    "label": "Terraced house"
+  },
+  {
+    "value": "semi-detached-house",
+    "label": "Semi-detached house"
+  },
+  {
+    "value": "detached-house",
+    "label": "Detached house"
+  },
+  {
+    "value": "bungalow",
+    "label": "Bungalow"
+  },
+  {
+    "value": "other",
+    "label": "Other"
+  }
+]

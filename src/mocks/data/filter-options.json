@@ -1,0 +1,47 @@
+{
+  "ratingOptions": [
+    {
+      "value": 3,
+      "label": "3 stars and above"
+    },
+    {
+      "value": 4,
+      "label": "4 stars and above"
+    },
+    {
+      "value": 4.5,
+      "label": "4.5 stars and above"
+    }
+  ],
+  "price": {
+    "minimum": 40000,
+    "maximum": 250000,
+    "step": 5000,
+    "currency": "GBP"
+  },
+  "distanceOptions": [
+    5,
+    10,
+    20,
+    30,
+    50
+  ],
+  "services": [
+    {
+      "value": "packing",
+      "label": "Packing service"
+    },
+    {
+      "value": "storage",
+      "label": "Storage"
+    },
+    {
+      "value": "weekend-moves",
+      "label": "Weekend moves"
+    },
+    {
+      "value": "specialist-items",
+      "label": "Specialist items"
+    }
+  ]
+}

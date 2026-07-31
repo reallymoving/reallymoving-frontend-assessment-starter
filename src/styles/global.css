@@ -1,0 +1,14 @@
+@import './tokens.css';
+* { box-sizing: border-box; }
+html { color-scheme: light; font-family: var(--rm-font-family); line-height: 1.5; }
+body { margin: 0; color: var(--rm-colour-text); background: var(--rm-colour-surface-soft); }
+a { color: var(--rm-colour-purple-700); }
+:focus-visible { outline: 3px solid var(--rm-colour-pink-600); outline-offset: 3px; }
+.brand-header { background: var(--rm-colour-surface); border-bottom: 1px solid var(--rm-colour-border); padding: var(--rm-space-4); }
+.brand-wordmark { display: inline-flex; text-decoration: none; font-size: 1.5rem; font-weight: 750; letter-spacing: -.04em; }
+.brand-wordmark span { color: var(--rm-colour-purple-700); }.brand-wordmark strong { color: var(--rm-colour-pink-600); }
+.starter { width: min(calc(100% - 2rem), var(--rm-content-width)); margin: 0 auto; padding: var(--rm-space-12) 0; }
+.starter h1 { color: var(--rm-colour-purple-800); max-width: 18ch; font-size: clamp(2rem, 7vw, 4rem); line-height: 1.05; }
+.starter > p { max-width: 68ch; }.eyebrow { color: var(--rm-colour-pink-700); font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+.starter-card { margin-top: var(--rm-space-8); padding: var(--rm-space-6); background: var(--rm-colour-surface); border: 1px solid var(--rm-colour-border); border-radius: var(--rm-radius-lg); box-shadow: var(--rm-shadow-card); max-width: 48rem; }
+code { background: var(--rm-colour-surface-soft); padding: .1em .3em; border-radius: var(--rm-radius-sm); }

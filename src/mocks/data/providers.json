@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "provider_001",
+    "companyName": "North London Moving Co.",
+    "slug": "north-london-moving-co",
+    "logoUrl": "/mock-assets/providers/provider-001.svg",
+    "shortDescription": "A family-run removals company specialising in residential moves across London and Hertfordshire.",
+    "fullDescription": "North London Moving Co. provides residential moving, professional packing and secure storage services. The company supports local and long-distance moves and has operated for more than 18 years.",
+    "rating": {
+      "average": 4.8,
+      "reviewCount": 428
+    },
+    "estimatedPrice": {
+      "amount": 89500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 3.7,
+    "yearsTrading": 18,
+    "verified": true,
+    "recommended": true,
+    "availability": {
+      "status": "available",
+      "earliestAvailableDate": "2026-09-18",
+      "weekendAvailable": true
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      },
+      {
+        "code": "top-rated",
+        "label": "Top rated"
+      },
+      {
+        "code": "long-established",
+        "label": "Long established"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "packing",
+      "storage",
+      "furniture-disassembly",
+      "furniture-assembly",
+      "weekend-moves"
+    ],
+    "contact": {
+      "telephone": "020 7946 0123",
+      "email": "quotes@example-removals.test",
+      "websiteUrl": "https://example-removals.test"
+    },
+    "serviceAreas": [
+      "North London",
+      "Central London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_001",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10482"
+      }
+    ],
+    "awards": [
+      {
+        "id": "award_001",
+        "name": "Customer Service Award",
+        "year": 2025
+      }
+    ],
+    "features": {
+      "packingService": true,
+      "unpackingService": false,
+      "storageAvailable": true,
+      "weekendMoves": true,
+      "furnitureAssembly": true,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 358,
+      "fourStar": 48,
+      "threeStar": 14,
+      "twoStar": 5,
+      "oneStar": 3
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-08-10T15:45:00Z"
+  },
+  {
+    "id": "provider_002",
+    "companyName": "SwiftMove UK",
+    "slug": "swiftmove-uk",
+    "logoUrl": "/mock-assets/providers/provider-002.svg",
+    "shortDescription": "Flexible moving and packing services with short-notice availability.",
+    "fullDescription": "SwiftMove UK provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 4.5,
+      "reviewCount": 196
+    },
+    "estimatedPrice": {
+      "amount": 77500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 6.2,
+    "yearsTrading": 9,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "limited",
+      "earliestAvailableDate": "2026-09-19",
+      "weekendAvailable": true
+    },
+    "badges": [
+      {
+        "code": "fast-response",
+        "label": "Fast response"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "packing",
+      "unpacking",
+      "weekend-moves"
+    ],
+    "contact": {
+      "telephone": "020 7000 0002",
+      "email": "quotes2@example-removals.test",
+      "websiteUrl": "https://provider-2.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_002",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10002"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": false,
+      "unpackingService": true,
+      "storageAvailable": false,
+      "weekendMoves": false,
+      "furnitureAssembly": true,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 39,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_003",
+    "companyName": "Oak & Van Removals",
+    "slug": "oak-and-van-removals",
+    "logoUrl": "/mock-assets/providers/provider-003.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "Oak & Van Removals provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 3.7,
+      "reviewCount": 76
+    },
+    "estimatedPrice": {
+      "amount": 69500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 5.9,
+    "yearsTrading": 11,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "contact-required",
+      "earliestAvailableDate": null,
+      "weekendAvailable": true
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "packing",
+      "furniture-disassembly",
+      "weekend-moves"
+    ],
+    "contact": {
+      "telephone": "020 7000 0003",
+      "email": "quotes3@example-removals.test",
+      "websiteUrl": "https://provider-3.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_003",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10003"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": true,
+      "unpackingService": false,
+      "storageAvailable": false,
+      "weekendMoves": true,
+      "furnitureAssembly": false,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 56,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_004",
+    "companyName": "CityCrate Logistics",
+    "slug": "citycrate-logistics",
+    "logoUrl": "/mock-assets/providers/provider-004.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "CityCrate Logistics provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 3.8,
+      "reviewCount": 93
+    },
+    "estimatedPrice": {
+      "amount": 76000,
+      "currency": "GBP"
+    },
+    "distanceMiles": 7.2,
+    "yearsTrading": 14,
+    "verified": false,
+    "recommended": false,
+    "availability": {
+      "status": "available",
+      "earliestAvailableDate": "2026-09-22",
+      "weekendAvailable": false
+    },
+    "badges": [],
+    "services": [
+      "home-removals",
+      "storage",
+      "specialist-items"
+    ],
+    "contact": {
+      "telephone": "020 7000 0004",
+      "email": "quotes4@example-removals.test",
+      "websiteUrl": "https://provider-4.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": false,
+      "goodsInTransitLimit": null,
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_004",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10004"
+      }
+    ],
+    "awards": [
+      {
+        "id": "award_004",
+        "name": "Customer Service Award",
+        "year": 2025
+      }
+    ],
+    "features": {
+      "packingService": false,
+      "unpackingService": false,
+      "storageAvailable": true,
+      "weekendMoves": false,
+      "furnitureAssembly": false,
+      "specialistItems": true,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 73,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_005",
+    "companyName": "Hertfordshire Home Moves",
+    "slug": "hertfordshire-home-moves",
+    "logoUrl": "/mock-assets/providers/provider-005.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "Hertfordshire Home Moves provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 3.9,
+      "reviewCount": 110
+    },
+    "estimatedPrice": {
+      "amount": 82500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 8.6,
+    "yearsTrading": 17,
+    "verified": true,
+    "recommended": true,
+    "availability": {
+      "status": "limited",
+      "earliestAvailableDate": "2026-09-23",
+      "weekendAvailable": false
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      },
+      {
+        "code": "recommended",
+        "label": "Recommended"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "unpacking",
+      "furniture-assembly"
+    ],
+    "contact": {
+      "telephone": "020 7000 0005",
+      "email": "quotes5@example-removals.test",
+      "websiteUrl": null
+    },
+    "serviceAreas": [
+      "London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_005",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10005"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": false,
+      "unpackingService": true,
+      "storageAvailable": false,
+      "weekendMoves": false,
+      "furnitureAssembly": true,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 90,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_006",
+    "companyName": "GreenRoute Removals",
+    "slug": "greenroute-removals",
+    "logoUrl": "/mock-assets/providers/provider-006.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "GreenRoute Removals provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 4.0,
+      "reviewCount": 127
+    },
+    "estimatedPrice": {
+      "amount": 89000,
+      "currency": "GBP"
+    },
+    "distanceMiles": 9.9,
+    "yearsTrading": 20,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "unavailable",
+      "earliestAvailableDate": null,
+      "weekendAvailable": true
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "packing",
+      "furniture-disassembly",
+      "weekend-moves"
+    ],
+    "contact": {
+      "telephone": "020 7000 0006",
+      "email": "quotes6@example-removals.test",
+      "websiteUrl": "https://provider-6.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [],
+    "awards": [],
+    "features": {
+      "packingService": true,
+      "unpackingService": false,
+      "storageAvailable": false,
+      "weekendMoves": true,
+      "furnitureAssembly": false,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 107,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_007",
+    "companyName": "PrimeShift Services",
+    "slug": "primeshift-services",
+    "logoUrl": "/mock-assets/providers/provider-007.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "PrimeShift Services provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": null,
+    "estimatedPrice": {
+      "amount": 95500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 11.3,
+    "yearsTrading": 23,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "contact-required",
+      "earliestAvailableDate": null,
+      "weekendAvailable": false
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "storage",
+      "specialist-items"
+    ],
+    "contact": {
+      "telephone": "020 7000 0007",
+      "email": "quotes7@example-removals.test",
+      "websiteUrl": "https://provider-7.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_007",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10007"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": false,
+      "unpackingService": false,
+      "storageAvailable": true,
+      "weekendMoves": false,
+      "furnitureAssembly": false,
+      "specialistItems": true,
+      "instantBooking": true
+    },
+    "reviewSummary": {
+      "fiveStar": 0,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_008",
+    "companyName": "Reliable Relocations",
+    "slug": "reliable-relocations",
+    "logoUrl": "/mock-assets/providers/provider-008.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "Reliable Relocations provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 4.2,
+      "reviewCount": 161
+    },
+    "estimatedPrice": {
+      "amount": 102000,
+      "currency": "GBP"
+    },
+    "distanceMiles": 12.6,
+    "yearsTrading": 26,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "available",
+      "earliestAvailableDate": "2026-09-18",
+      "weekendAvailable": false
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "unpacking",
+      "furniture-assembly"
+    ],
+    "contact": {
+      "telephone": "020 7000 0008",
+      "email": "quotes8@example-removals.test",
+      "websiteUrl": "https://provider-8.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": false,
+      "goodsInTransitLimit": null,
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_008",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10008"
+      }
+    ],
+    "awards": [
+      {
+        "id": "award_008",
+        "name": "Customer Service Award",
+        "year": 2025
+      }
+    ],
+    "features": {
+      "packingService": false,
+      "unpackingService": true,
+      "storageAvailable": false,
+      "weekendMoves": false,
+      "furnitureAssembly": true,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 141,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_009",
+    "companyName": "MoveKind UK",
+    "slug": "movekind-uk",
+    "logoUrl": "/mock-assets/providers/provider-009.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "MoveKind UK provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 4.3,
+      "reviewCount": 178
+    },
+    "estimatedPrice": {
+      "amount": 108500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 14.0,
+    "yearsTrading": 2,
+    "verified": true,
+    "recommended": true,
+    "availability": {
+      "status": "limited",
+      "earliestAvailableDate": "2026-09-19",
+      "weekendAvailable": true
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      },
+      {
+        "code": "recommended",
+        "label": "Recommended"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "packing",
+      "furniture-disassembly",
+      "weekend-moves"
+    ],
+    "contact": {
+      "telephone": "020 7000 0009",
+      "email": "quotes9@example-removals.test",
+      "websiteUrl": "https://provider-9.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_009",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10009"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": true,
+      "unpackingService": false,
+      "storageAvailable": false,
+      "weekendMoves": true,
+      "furnitureAssembly": false,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 158,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_010",
+    "companyName": "Atlas Home Moving",
+    "slug": "atlas-home-moving",
+    "logoUrl": "/mock-assets/providers/provider-010.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "Atlas Home Moving provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 4.4,
+      "reviewCount": 195
+    },
+    "estimatedPrice": {
+      "amount": 115000,
+      "currency": "GBP"
+    },
+    "distanceMiles": 15.3,
+    "yearsTrading": 5,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "unavailable",
+      "earliestAvailableDate": null,
+      "weekendAvailable": false
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "storage",
+      "specialist-items"
+    ],
+    "contact": {
+      "telephone": "020 7000 0010",
+      "email": "quotes10@example-removals.test",
+      "websiteUrl": null
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_010",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10010"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": false,
+      "unpackingService": false,
+      "storageAvailable": true,
+      "weekendMoves": false,
+      "furnitureAssembly": false,
+      "specialistItems": true,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 175,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_011",
+    "companyName": "QuickNest Removals",
+    "slug": "quicknest-removals",
+    "logoUrl": "/mock-assets/providers/provider-011.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "QuickNest Removals provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 4.5,
+      "reviewCount": 212
+    },
+    "estimatedPrice": {
+      "amount": 121500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 16.7,
+    "yearsTrading": 8,
+    "verified": false,
+    "recommended": false,
+    "availability": {
+      "status": "contact-required",
+      "earliestAvailableDate": null,
+      "weekendAvailable": false
+    },
+    "badges": [],
+    "services": [
+      "home-removals",
+      "unpacking",
+      "furniture-assembly"
+    ],
+    "contact": {
+      "telephone": "020 7000 0011",
+      "email": "quotes11@example-removals.test",
+      "websiteUrl": "https://provider-11.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_011",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10011"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": false,
+      "unpackingService": true,
+      "storageAvailable": false,
+      "weekendMoves": false,
+      "furnitureAssembly": true,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 192,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_012",
+    "companyName": "BlueDoor Moving",
+    "slug": "bluedoor-moving",
+    "logoUrl": "/mock-assets/providers/provider-012.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "BlueDoor Moving provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 4.6,
+      "reviewCount": 229
+    },
+    "estimatedPrice": {
+      "amount": 128000,
+      "currency": "GBP"
+    },
+    "distanceMiles": 18.0,
+    "yearsTrading": 11,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "available",
+      "earliestAvailableDate": "2026-09-22",
+      "weekendAvailable": true
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "packing",
+      "furniture-disassembly",
+      "weekend-moves"
+    ],
+    "contact": {
+      "telephone": "020 7000 0012",
+      "email": "quotes12@example-removals.test",
+      "websiteUrl": "https://provider-12.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": false,
+      "goodsInTransitLimit": null,
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [],
+    "awards": [
+      {
+        "id": "award_012",
+        "name": "Customer Service Award",
+        "year": 2025
+      }
+    ],
+    "features": {
+      "packingService": true,
+      "unpackingService": false,
+      "storageAvailable": false,
+      "weekendMoves": true,
+      "furnitureAssembly": false,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 209,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_013",
+    "companyName": "SafeHands Removals",
+    "slug": "safehands-removals",
+    "logoUrl": "/mock-assets/providers/provider-013.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "SafeHands Removals provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 4.7,
+      "reviewCount": 246
+    },
+    "estimatedPrice": {
+      "amount": 134500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 19.4,
+    "yearsTrading": 14,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "limited",
+      "earliestAvailableDate": "2026-09-23",
+      "weekendAvailable": false
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "storage",
+      "specialist-items"
+    ],
+    "contact": {
+      "telephone": "020 7000 0013",
+      "email": "quotes13@example-removals.test",
+      "websiteUrl": "https://provider-13.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_013",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10013"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": false,
+      "unpackingService": false,
+      "storageAvailable": true,
+      "weekendMoves": false,
+      "furnitureAssembly": false,
+      "specialistItems": true,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 226,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_014",
+    "companyName": "UrbanLift Logistics",
+    "slug": "urbanlift-logistics",
+    "logoUrl": "/mock-assets/providers/provider-014.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "UrbanLift Logistics provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 4.8,
+      "reviewCount": 263
+    },
+    "estimatedPrice": {
+      "amount": 141000,
+      "currency": "GBP"
+    },
+    "distanceMiles": 20.7,
+    "yearsTrading": 17,
+    "verified": true,
+    "recommended": true,
+    "availability": {
+      "status": "unavailable",
+      "earliestAvailableDate": null,
+      "weekendAvailable": false
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      },
+      {
+        "code": "recommended",
+        "label": "Recommended"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "unpacking",
+      "furniture-assembly"
+    ],
+    "contact": {
+      "telephone": "020 7000 0014",
+      "email": "quotes14@example-removals.test",
+      "websiteUrl": "https://provider-14.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_014",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10014"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": false,
+      "unpackingService": true,
+      "storageAvailable": false,
+      "weekendMoves": false,
+      "furnitureAssembly": true,
+      "specialistItems": false,
+      "instantBooking": true
+    },
+    "reviewSummary": {
+      "fiveStar": 243,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_015",
+    "companyName": "Homeward Move Co.",
+    "slug": "homeward-move-co",
+    "logoUrl": "/mock-assets/providers/provider-015.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "Homeward Move Co. provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": null,
+    "estimatedPrice": {
+      "amount": 147500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 22.1,
+    "yearsTrading": 20,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "contact-required",
+      "earliestAvailableDate": null,
+      "weekendAvailable": true
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "packing",
+      "furniture-disassembly",
+      "weekend-moves"
+    ],
+    "contact": {
+      "telephone": "020 7000 0015",
+      "email": "quotes15@example-removals.test",
+      "websiteUrl": null
+    },
+    "serviceAreas": [
+      "London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_015",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10015"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": true,
+      "unpackingService": false,
+      "storageAvailable": false,
+      "weekendMoves": true,
+      "furnitureAssembly": false,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 0,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_016",
+    "companyName": "BrightBox Removals",
+    "slug": "brightbox-removals",
+    "logoUrl": "/mock-assets/providers/provider-016.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "BrightBox Removals provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 3.4,
+      "reviewCount": 297
+    },
+    "estimatedPrice": {
+      "amount": 154000,
+      "currency": "GBP"
+    },
+    "distanceMiles": 23.4,
+    "yearsTrading": 23,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "available",
+      "earliestAvailableDate": "2026-09-18",
+      "weekendAvailable": false
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "storage",
+      "specialist-items"
+    ],
+    "contact": {
+      "telephone": "020 7000 0016",
+      "email": "quotes16@example-removals.test",
+      "websiteUrl": "https://provider-16.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": false,
+      "goodsInTransitLimit": null,
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_016",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10016"
+      }
+    ],
+    "awards": [
+      {
+        "id": "award_016",
+        "name": "Customer Service Award",
+        "year": 2025
+      }
+    ],
+    "features": {
+      "packingService": false,
+      "unpackingService": false,
+      "storageAvailable": true,
+      "weekendMoves": false,
+      "furnitureAssembly": false,
+      "specialistItems": true,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 277,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_017",
+    "companyName": "Parkside Relocations",
+    "slug": "parkside-relocations",
+    "logoUrl": "/mock-assets/providers/provider-017.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "Parkside Relocations provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 3.5,
+      "reviewCount": 314
+    },
+    "estimatedPrice": {
+      "amount": 160500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 24.8,
+    "yearsTrading": 26,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "limited",
+      "earliestAvailableDate": "2026-09-19",
+      "weekendAvailable": false
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "unpacking",
+      "furniture-assembly"
+    ],
+    "contact": {
+      "telephone": "020 7000 0017",
+      "email": "quotes17@example-removals.test",
+      "websiteUrl": "https://provider-17.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_017",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10017"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": false,
+      "unpackingService": true,
+      "storageAvailable": false,
+      "weekendMoves": false,
+      "furnitureAssembly": true,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 294,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_018",
+    "companyName": "Red Kite Moving",
+    "slug": "red-kite-moving",
+    "logoUrl": "/mock-assets/providers/provider-018.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "Red Kite Moving provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 3.6,
+      "reviewCount": 331
+    },
+    "estimatedPrice": {
+      "amount": 167000,
+      "currency": "GBP"
+    },
+    "distanceMiles": 26.1,
+    "yearsTrading": 2,
+    "verified": false,
+    "recommended": false,
+    "availability": {
+      "status": "unavailable",
+      "earliestAvailableDate": null,
+      "weekendAvailable": true
+    },
+    "badges": [],
+    "services": [
+      "home-removals",
+      "packing",
+      "furniture-disassembly",
+      "weekend-moves"
+    ],
+    "contact": {
+      "telephone": "020 7000 0018",
+      "email": "quotes18@example-removals.test",
+      "websiteUrl": "https://provider-18.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [],
+    "awards": [],
+    "features": {
+      "packingService": true,
+      "unpackingService": false,
+      "storageAvailable": false,
+      "weekendMoves": true,
+      "furnitureAssembly": false,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 311,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_019",
+    "companyName": "Trusted Van & Storage",
+    "slug": "trusted-van-and-storage",
+    "logoUrl": "/mock-assets/providers/provider-019.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "Trusted Van & Storage provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 3.7,
+      "reviewCount": 348
+    },
+    "estimatedPrice": {
+      "amount": 173500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 27.5,
+    "yearsTrading": 5,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "contact-required",
+      "earliestAvailableDate": null,
+      "weekendAvailable": false
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "storage",
+      "specialist-items"
+    ],
+    "contact": {
+      "telephone": "020 7000 0019",
+      "email": "quotes19@example-removals.test",
+      "websiteUrl": "https://provider-19.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_019",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10019"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": false,
+      "unpackingService": false,
+      "storageAvailable": true,
+      "weekendMoves": false,
+      "furnitureAssembly": false,
+      "specialistItems": true,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 328,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_020",
+    "companyName": "Compass Removals",
+    "slug": "compass-removals",
+    "logoUrl": "/mock-assets/providers/provider-020.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "Compass Removals provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 3.8,
+      "reviewCount": 365
+    },
+    "estimatedPrice": {
+      "amount": 180000,
+      "currency": "GBP"
+    },
+    "distanceMiles": 28.8,
+    "yearsTrading": 8,
+    "verified": true,
+    "recommended": true,
+    "availability": {
+      "status": "available",
+      "earliestAvailableDate": "2026-09-22",
+      "weekendAvailable": false
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      },
+      {
+        "code": "recommended",
+        "label": "Recommended"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "unpacking",
+      "furniture-assembly"
+    ],
+    "contact": {
+      "telephone": "020 7000 0020",
+      "email": "quotes20@example-removals.test",
+      "websiteUrl": null
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": false,
+      "goodsInTransitLimit": null,
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_020",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10020"
+      }
+    ],
+    "awards": [
+      {
+        "id": "award_020",
+        "name": "Customer Service Award",
+        "year": 2025
+      }
+    ],
+    "features": {
+      "packingService": false,
+      "unpackingService": true,
+      "storageAvailable": false,
+      "weekendMoves": false,
+      "furnitureAssembly": true,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 345,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_021",
+    "companyName": "EasyMove Partners",
+    "slug": "easymove-partners",
+    "logoUrl": "/mock-assets/providers/provider-021.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "EasyMove Partners provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 3.9,
+      "reviewCount": 382
+    },
+    "estimatedPrice": {
+      "amount": 186500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 30.2,
+    "yearsTrading": 11,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "limited",
+      "earliestAvailableDate": "2026-09-23",
+      "weekendAvailable": true
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "packing",
+      "furniture-disassembly",
+      "weekend-moves"
+    ],
+    "contact": {
+      "telephone": "020 7000 0021",
+      "email": "quotes21@example-removals.test",
+      "websiteUrl": "https://provider-21.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_021",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10021"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": true,
+      "unpackingService": false,
+      "storageAvailable": false,
+      "weekendMoves": true,
+      "furnitureAssembly": false,
+      "specialistItems": false,
+      "instantBooking": true
+    },
+    "reviewSummary": {
+      "fiveStar": 362,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_022",
+    "companyName": "HouseHop Logistics",
+    "slug": "househop-logistics",
+    "logoUrl": "/mock-assets/providers/provider-022.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "HouseHop Logistics provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": null,
+    "estimatedPrice": {
+      "amount": 193000,
+      "currency": "GBP"
+    },
+    "distanceMiles": 31.5,
+    "yearsTrading": 14,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "unavailable",
+      "earliestAvailableDate": null,
+      "weekendAvailable": false
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "storage",
+      "specialist-items"
+    ],
+    "contact": {
+      "telephone": "020 7000 0022",
+      "email": "quotes22@example-removals.test",
+      "websiteUrl": "https://provider-22.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_022",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10022"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": false,
+      "unpackingService": false,
+      "storageAvailable": true,
+      "weekendMoves": false,
+      "furnitureAssembly": false,
+      "specialistItems": true,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 0,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_023",
+    "companyName": "Careful Carry Co.",
+    "slug": "careful-carry-co",
+    "logoUrl": "/mock-assets/providers/provider-023.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "Careful Carry Co. provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 4.1,
+      "reviewCount": 416
+    },
+    "estimatedPrice": {
+      "amount": 199500,
+      "currency": "GBP"
+    },
+    "distanceMiles": 32.9,
+    "yearsTrading": 17,
+    "verified": false,
+    "recommended": false,
+    "availability": {
+      "status": "contact-required",
+      "earliestAvailableDate": null,
+      "weekendAvailable": false
+    },
+    "badges": [],
+    "services": [
+      "home-removals",
+      "unpacking",
+      "furniture-assembly"
+    ],
+    "contact": {
+      "telephone": "020 7000 0023",
+      "email": "quotes23@example-removals.test",
+      "websiteUrl": "https://provider-23.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Hertfordshire"
+    ],
+    "insurance": {
+      "goodsInTransit": true,
+      "goodsInTransitLimit": {
+        "amount": 5000000,
+        "currency": "GBP"
+      },
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [
+      {
+        "id": "accreditation_023",
+        "name": "Mock Removals Association",
+        "reference": "MRA-10023"
+      }
+    ],
+    "awards": [],
+    "features": {
+      "packingService": false,
+      "unpackingService": true,
+      "storageAvailable": false,
+      "weekendMoves": false,
+      "furnitureAssembly": true,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 396,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  },
+  {
+    "id": "provider_024",
+    "companyName": "Moving Day UK",
+    "slug": "moving-day-uk",
+    "logoUrl": "/mock-assets/providers/provider-024.svg",
+    "shortDescription": "A trusted UK removals provider offering flexible services for local and long-distance moves.",
+    "fullDescription": "Moving Day UK provides professional residential removals with a focus on clear communication, careful handling and dependable service.",
+    "rating": {
+      "average": 4.2,
+      "reviewCount": 433
+    },
+    "estimatedPrice": {
+      "amount": 125000,
+      "currency": "GBP"
+    },
+    "distanceMiles": 34.2,
+    "yearsTrading": 20,
+    "verified": true,
+    "recommended": false,
+    "availability": {
+      "status": "available",
+      "earliestAvailableDate": "2026-09-18",
+      "weekendAvailable": true
+    },
+    "badges": [
+      {
+        "code": "verified",
+        "label": "Verified provider"
+      }
+    ],
+    "services": [
+      "home-removals",
+      "packing",
+      "furniture-disassembly",
+      "weekend-moves"
+    ],
+    "contact": {
+      "telephone": "020 7000 0024",
+      "email": "quotes24@example-removals.test",
+      "websiteUrl": "https://provider-24.example.test"
+    },
+    "serviceAreas": [
+      "London",
+      "Essex"
+    ],
+    "insurance": {
+      "goodsInTransit": false,
+      "goodsInTransitLimit": null,
+      "publicLiability": true,
+      "publicLiabilityLimit": {
+        "amount": 100000000,
+        "currency": "GBP"
+      }
+    },
+    "accreditations": [],
+    "awards": [
+      {
+        "id": "award_024",
+        "name": "Customer Service Award",
+        "year": 2025
+      }
+    ],
+    "features": {
+      "packingService": true,
+      "unpackingService": false,
+      "storageAvailable": false,
+      "weekendMoves": true,
+      "furnitureAssembly": false,
+      "specialistItems": false,
+      "instantBooking": false
+    },
+    "reviewSummary": {
+      "fiveStar": 413,
+      "fourStar": 12,
+      "threeStar": 5,
+      "twoStar": 2,
+      "oneStar": 1
+    },
+    "createdAt": "2022-03-10T11:15:00Z",
+    "updatedAt": "2026-07-20T15:45:00Z"
+  }
+]
