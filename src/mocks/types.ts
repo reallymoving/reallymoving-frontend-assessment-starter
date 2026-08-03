@@ -30,15 +30,6 @@ export type ProviderBadgeCode =
   | 'eco-conscious'
   | 'fast-response';
 
-export type ProviderSort =
-  | 'best-match'
-  | 'price-low-to-high'
-  | 'price-high-to-low'
-  | 'rating-high-to-low'
-  | 'reviews-high-to-low'
-  | 'distance-nearest'
-  | 'newest';
-
 export type ReviewSort =
   | 'newest'
   | 'oldest'
@@ -210,12 +201,6 @@ export interface ApiError {
     retryable: boolean;
     requestId: string;
   };
-}
-
-export interface ProviderSearchRecord {
-  searchId: string;
-  criteria: ProviderSearchCriteria;
-  createdAt: string;
 }
 
 export interface ProviderAvailabilityResult {

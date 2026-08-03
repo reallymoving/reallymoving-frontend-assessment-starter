@@ -11,21 +11,10 @@ import { providers, searches } from '../store';
 import type {
   AvailabilityStatus,
   ProviderDetails,
-  ProviderSort,
   ProviderSummary,
   ServiceCode,
 } from '../types';
 import { validateSearchCriteria } from '../validation';
-
-const supportedSorts: ProviderSort[] = [
-  'best-match',
-  'price-low-to-high',
-  'price-high-to-low',
-  'rating-high-to-low',
-  'reviews-high-to-low',
-  'distance-nearest',
-  'newest',
-];
 
 const availabilityStatuses: AvailabilityStatus[] = [
   'available',
@@ -53,47 +42,6 @@ function toSummary(provider: ProviderDetails): ProviderSummary {
 
 function compareName(a: ProviderDetails, b: ProviderDetails): number {
   return a.companyName.localeCompare(b.companyName, 'en-GB');
-}
-
-function sortProviders(items: ProviderDetails[], sort: ProviderSort): ProviderDetails[] {
-  return [...items].sort((a, b) => {
-    let difference = 0;
-    switch (sort) {
-      case 'price-low-to-high':
-        difference = a.estimatedPrice.amount - b.estimatedPrice.amount;
-        break;
-      case 'price-high-to-low':
-        difference = b.estimatedPrice.amount - a.estimatedPrice.amount;
-        break;
-      case 'rating-high-to-low':
-        difference = (b.rating?.average ?? -1) - (a.rating?.average ?? -1);
-        if (difference === 0) {
-          difference = (b.rating?.reviewCount ?? 0) - (a.rating?.reviewCount ?? 0);
-        }
-        break;
-      case 'reviews-high-to-low':
-        difference = (b.rating?.reviewCount ?? 0) - (a.rating?.reviewCount ?? 0);
-        break;
-      case 'distance-nearest':
-        difference = a.distanceMiles - b.distanceMiles;
-        break;
-      case 'newest':
-        difference = Date.parse(b.createdAt) - Date.parse(a.createdAt);
-        break;
-      case 'best-match':
-      default: {
-        const score = (provider: ProviderDetails): number =>
-          (provider.recommended ? 1000 : 0) +
-          (provider.verified ? 500 : 0) +
-          (provider.rating?.average ?? 0) * 100 +
-          Math.min(provider.rating?.reviewCount ?? 0, 500) -
-          provider.distanceMiles * 2 -
-          provider.estimatedPrice.amount / 10_000;
-        difference = score(b) - score(a);
-      }
-    }
-    return difference || compareName(a, b);
-  });
 }
 
 export const providerSearchHandlers = [
@@ -199,11 +147,6 @@ export const providerSearchHandlers = [
         services.every((service) => provider.services.includes(service)),
       );
     }
-
-    const requestedSort = url.searchParams.get('sort') as ProviderSort | null;
-    const sort = requestedSort && supportedSorts.includes(requestedSort) ? requestedSort : 'best-match';
-    result = sortProviders(result, sort);
-
     const page = readPositiveInteger(url.searchParams.get('page'), 1);
     const pageSize = readPositiveInteger(url.searchParams.get('pageSize'), 10, 50);
     const pagination = createPagination(page, pageSize, result.length);

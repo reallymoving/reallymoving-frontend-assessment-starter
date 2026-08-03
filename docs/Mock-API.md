@@ -11,7 +11,6 @@ Do not change API endpoint names, request shapes, or response shapes.
 - Contract-aligned endpoints
 - Mock datasets
 - Filtering
-- Sorting
 - Pagination
 - Validation
 - Error simulation (500, 503, 429, timeout, slow)
@@ -99,16 +98,6 @@ Use these on `GET /api/provider-searches/:searchId/providers`:
 - `weekendAvailable`
 - `services` (comma-separated)
 - `availability`
-
-## Supported sort values
-
-- `best-match`
-- `price-low-to-high`
-- `price-high-to-low`
-- `rating-high-to-low`
-- `reviews-high-to-low`
-- `distance-nearest`
-- `newest`
 
 ## Simulate errors and slow responses
 

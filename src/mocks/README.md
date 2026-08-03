@@ -85,18 +85,6 @@ Normal requests use `VITE_MOCK_DEFAULT_DELAY_MS`, defaulting to 500 milliseconds
 - `services` — comma-separated service codes; all requested services must match
 - `availability`
 
-## Supported provider sort modes
-
-- `best-match`
-- `price-low-to-high`
-- `price-high-to-low`
-- `rating-high-to-low`
-- `reviews-high-to-low`
-- `distance-nearest`
-- `newest`
-
-Sorting is deterministic and falls back to company name when primary values are equal.
-
 ## Supplied data
 
 The dataset contains:
