@@ -70,6 +70,20 @@ If those calls return data, the mock API is working.
 
 Tip for fast UI work: you can use `searchId=demo` to load results directly.
 
+## Provider search for form submission
+| POST | `/api/provider-searches` |
+
+example payload:
+{
+    movingFromPostcode: 'LS146QH',
+    movingToPostcode: 'PO198TR',
+    propertyType: 'flat',
+    bedrooms: 2,
+    movingDate: '2026-09-01',
+}
+
+successful submission returns searchId
+
 ## Provider list query parameters
 
 Use these on `GET /api/provider-searches/:searchId/providers`:
