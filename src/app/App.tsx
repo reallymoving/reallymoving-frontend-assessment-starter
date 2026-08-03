@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export function App() {
   return (
@@ -19,7 +19,7 @@ export function App() {
           <h2 id="getting-started">Start here</h2>
           <ol>
             <li>Read the assessment pack and repository guidance.</li>
-            <li>Review the API contract under <code>docs/api</code>.</li>
+            <li>Review the API contract under <code>docs/Mock-API</code>.</li>
             <li>Replace this starter screen with your implementation.</li>
           </ol>
         </section>
